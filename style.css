@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: gilroy;
+}
+
+main {
+  width: 100%;
+}
+main header {
+  height: 4.5vw;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main nav {
+  height: 2.5vw;
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #c7c6c6;
+}
+main nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2.5vw;
+}
+main nav ul a {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+  font-weight: 600;
+}
+main nav ul a:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+main .heroSection {
+  display: flex;
+}
+main .heroSection aside {
+  background-color: #e4e4e4;
+  width: 20%;
+  padding: 1vw;
+}
+main .heroSection aside a {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+  line-height: 3;
+}
+main .heroSection aside ul {
+  list-style: none;
+}
+main .heroSection aside .uLine {
+  border-bottom: 1.5px dotted #c7c6c6;
+}
+main .heroSection aside li:hover {
+  background-color: #d9d7d7;
+  transition: 0.5s linear;
+}
+main .heroSection aside li:first-child {
+  font-weight: 600;
+  font-size: 1.2vw;
+}
+main .heroSection .mainSection {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  padding: 3vw 1vw;
+}
+main .heroSection .mainSection .images {
+  display: flex;
+  padding-left: 5vw;
+  padding-top: 1.5vw;
+  gap: 1vw;
+}
+main .heroSection .mainSection .images img {
+  width: 30%;
+  height: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .heroSection .mainSection .p {
+  padding: 2vw 0;
+  font-size: 1.11vw;
+  color: rgb(53, 53, 53);
+}
+main .heroSection .mainSection ul {
+  padding-left: 4vw;
+  padding-top: 1vw;
+}
+main footer {
+  height: 4vw;
+  color: white;
+  background-color: rgb(53, 53, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

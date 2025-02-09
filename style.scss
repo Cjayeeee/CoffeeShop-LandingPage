@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: gilroy;
+}
+
+main{
+    width: 100%;
+
+    header{
+        height: 4.5vw;
+        background-color: rgb(53, 53, 53);
+        color: #ffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav{
+        height: 2.5vw;
+        background-color: #e4e4e4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #c7c6c6;
+
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 2.5vw;
+
+            a{
+                text-decoration: none;
+                color: rgb(53, 53, 53);
+                font-weight: 600;
+            }
+
+            a:hover{
+                color: rgb(0, 0, 0);
+                transition: .5s;
+            }
+        }
+    }
+
+    .heroSection{
+        display: flex;
+
+
+        aside{
+            background-color: #e4e4e4;
+            width: 20%;
+            padding: 1vw;
+            // height: 40vw;
+
+            a{
+                text-decoration: none;
+                color: rgb(53, 53, 53);
+                line-height: 3;
+            }
+            ul{
+                list-style: none;
+            }
+
+            .uLine{
+                border-bottom: 1.5px dotted #c7c6c6;
+            }
+
+            li:hover{
+                background-color: #d9d7d7;
+                transition: .5s linear;
+                
+            }
+
+            li:first-child{
+                font-weight: 600;
+                font-size: 1.2vw;
+            }
+
+        }
+
+        .mainSection{
+            background-color: rgb(255, 255, 255);
+            width: 80%;
+            padding: 3vw 1vw;
+
+            .images{
+                display: flex;
+                padding-left: 5vw;
+                padding-top: 1.5vw;
+                gap: 1vw;
+
+                img{
+                    width: 30%;
+                    height: 30vw;
+                    object-fit: cover;
+                }
+            }
+
+            .p{
+                padding: 2vw 0;
+                font-size: 1.11vw;
+                color: rgb(53, 53, 53);
+            }
+
+            ul{
+                padding-left: 4vw;
+                padding-top: 1vw;
+            }
+        }
+    }
+
+    footer{
+        height: 4vw;
+        color: #ffff;
+        background-color: rgb(53, 53, 53);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
